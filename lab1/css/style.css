@@ -1,0 +1,178 @@
+
+/*for file index.html start*/
+
+.header{
+	margin-bottom: 50px;
+}
+
+.navbar{
+	background-color: #638db1;
+}
+
+.img__wrapper{
+	min-height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.card-list{
+	display: flex;
+}
+
+.articles__card-list{
+	list-style: none;
+	padding-left: 0;
+}
+
+.articles__card-list-item{
+	margin: 0 20px 5px 0;
+	padding-left: 20px;
+	position: relative;
+}
+
+.icon-comment::before{
+	content: "";
+	background-image: url('../images/comments.svg');
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 5px;
+	left: 0;
+}
+
+.icon-like::before{
+	content: "";
+	background-image: url('../images/heart.svg');
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 4px;
+	left: 0;
+}
+
+.icon-view::before{
+	content: "";
+	background-image: url('../images/eye.svg');
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 3px;
+	left: 0;
+}
+
+.card{
+	border: none;
+}
+
+.articles__link-next{
+	text-align: center;
+	margin: 50px 0;
+}
+
+.footer__wrapper{
+	background-color: #638db1;
+
+}
+
+.footer-link{
+	color: #fff;
+}
+
+.footer-link:hover{
+	color: #fff;
+}
+
+.footer__text p{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+/*for file index.html end*/
+
+/*for file article-scrip.html start*/
+
+.article__main-wrapper--img{
+	margin-bottom: 15px;
+}
+
+.article-title{
+	margin-bottom: 20px;
+}
+
+.comment-input{
+	margin-bottom: 15px;
+}
+
+.comments{
+	margin-bottom: 50px;
+}
+
+
+/*for file article-scrip.html end*/
+
+
+/*for file sign-up.html start*/
+
+.reg__login{
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+
+.reg__form-date{
+	margin: 15px 0;
+}
+
+.page{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.reg__date{
+	margin-bottom: 10px;
+}
+
+/*for file sign-up.html end*/
+
+/*for file log-in.html start*/
+
+.login__btn{
+	margin-top: 15px;
+}
+
+.remember-me{
+	margin-top: 8px;
+}
+
+.footer{
+	margin-top: auto;
+}
+/*for file log-in.html end*/
+
+.profile{
+	margin: auto 0;
+}
+
+.profile__text{
+	color: #638db1;
+}
+
+
+
+/*Commetns*/
+
+.comments__all{
+	min-height: 200px;
+	border: 1px solid #638db1;
+	margin-bottom: 50px;
+}
+
+.comments__all-noone{
+	padding-left: 15px;
+}
+
+/*Comments*/

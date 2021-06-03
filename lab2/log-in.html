@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scriptionite | Вход</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+	<header class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container-fluid">
+			    <a class="navbar-brand" href="index.html">Scriptionite</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link" aria-current="page" href="index.html">Главная</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="profile.html">Мой профиль</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link active" href="log-in.html">Вход</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="sign-up.html">Регистрация</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="about.html">О рэпере</a>
+				        </li>
+				    </ul>
+				    <form class="d-flex">
+				        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+				        <button class="btn btn-light" type="submit">Найти</button>
+				    </form>
+			    </div>
+			</div>
+		</nav>
+		</div>
+	</header>		
+	<section class="reg__login">
+		<form>
+			<div class="text-center">
+				<h3 class="h3 mb-3 fw-normal">Вход</h3>
+			    <label for="loginEmail" class="visually-hidden">Email</label>
+			    <input type="email" id="loginEmail" class="form-control" placeholder="Адрес электронной почты" required autofocus>
+			    <label for="loginPassword" class="visually-hidden">Пароль</label>
+			    <input type="password" id="loginPassword" class="form-control" placeholder="Пароль" required>
+			    <!-- <label class="remember-me">
+			        <input type="checkbox" value="remember-me"> Запомнить меня
+			    </label>  -->
+			</div>
+		    <button class="w-100 btn btn-lg btn-dark login__btn" id="loginBtn" type="submit">
+		    	Войти
+		    </button>
+	    </form>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<nav class="nav justify-content-center">
+	  				<ul class="nav ">
+						<li class="nav-item">
+					        <a class="nav-link footer-link" aria-current="page" href="index.html">Главная</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link footer-link" href="profile.html">Мой профиль</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link footer-link active" href="log-in.html">Вход</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link footer-link" href="sign-up.html">Регистрация</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link footer-link" href="about.html">О рэпере</a>
+					    </li>
+					</ul>
+				</nav>
+				<div class="footer__text">
+					<p>
+						Created by Vladyslav Savchenko
+					</p>
+				</div>
+			</div>
+		</div>		
+	</footer>
+	<script src="./js/base.js"></script>
+    <script src="./js/Model/Model.js"></script>
+    <script src="./js/View/View.js"></script>
+    <script src="./js/Controller/Controller.js"></script>
+    <script src="./js/Controller/pages/login.js"></script>
+</body>
+</html>
